@@ -32,4 +32,5 @@ Route::post('/admin/product/edit/{id}',"Admin\ProductController@postEdit")->name
 Route::post('/admin/product/delete/{id}',"Admin\ProductController@postDelete")->name('product.postDelete');
 
 
+
 Route::get('/admin/category/list',"Admin\CategoryController@getList")->name('category.getList');
